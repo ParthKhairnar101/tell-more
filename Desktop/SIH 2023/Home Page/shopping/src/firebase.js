@@ -2,17 +2,20 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
-  apiKey: "AIzaSyCcEZ8a71Ym8zHJwENqrzY3n-MpEbN9hqo",
-  authDomain: "clone-8a1ca.firebaseapp.com",
-  projectId: "clone-8a1ca",
-  storageBucket: "clone-8a1ca.appspot.com",
-  messagingSenderId: "1007767186941",
-  appId: "1:1007767186941:web:17afcee5d2c8d797a67d94",
-  measurementId: "G-D0CHNEB7EW"
+  apiKey: "AIzaSyBkslHNuIQsSGesHQOgU2YiSqXWUucYwVU",
+  authDomain: "sih-college-round.firebaseapp.com",
+  projectId: "sih-college-round",
+  storageBucket: "sih-college-round.appspot.com",
+  messagingSenderId: "854776640292",
+  appId: "1:854776640292:web:52f0366bb9c9807bf3f9b1",
+  measurementId: "G-850FL0CNX8"
 };
   
-  const firebaseApp = firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
   const db= firebaseApp.firestore();
   const auth=firebase.auth();

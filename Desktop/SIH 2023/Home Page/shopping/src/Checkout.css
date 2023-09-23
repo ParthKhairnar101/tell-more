@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Uncial+Antiqua&display=swap');
+
+* {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
 .checkout{
     display: flex;
+    justify-content: space-between;
     padding: 20px;
     background-color: white;
     height: max-content;
@@ -7,6 +15,7 @@
 
 .checkout__ad{
     width:100%;
+    height: 200px;
     margin-bottom: 10px;
 }
 .checkout__title{

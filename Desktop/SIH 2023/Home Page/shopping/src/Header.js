@@ -18,7 +18,7 @@ function Header() {
       <Link to="/">
       <img 
         className="header__logo"
-        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        src="images/SIH1.png"
         alt=''
       />
       </Link>
@@ -56,12 +56,6 @@ function Header() {
         </div>
         </Link>
 
-        <Link to = 'https://www.primevideo.com/offers/nonprimehomepage/ref=dvm_pds_amz_in_as_s_gm_35_mkw_sSRApua0f-dc?gclid=CjwKCAjw6p-oBhAYEiwAgg2PglRST1IxlpFhbWqjaymOaqld9aRZoCJoZ5THt8vzFM1-9-Gs5JGqUxoCRm8QAvD_BwE&mrntrk=pcrid_657901934528_slid__pgrid_84577172368_pgeo_9300146_x__adext__ptid_kwd-457550287913'>
-        <div className='header__option'>
-          <span className='header__optionLineOne'>Your</span>
-          <span className='header__optionLineTwo'>Prime</span>
-         </div>
-         </Link>
          <Link to="/checkout">
          <div className='header__optionBasket'>
           <ShoppingBasketIcon/>

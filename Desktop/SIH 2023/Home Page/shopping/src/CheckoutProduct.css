@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Uncial+Antiqua&display=swap');
+
+* {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
 .checkoutProduct {
     display: flex;
     margin-top: 20px;
@@ -9,11 +16,13 @@
 }
 
 .checkoutProduct__info > button {
-    background: #f0c14b;
+    background: #131921;
     border: 1px solid;
+    border-radius: 10%;
+    padding: 5px;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    color: #ffffff;
 }
 
 .checkoutProduct__image {

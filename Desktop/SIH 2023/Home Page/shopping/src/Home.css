@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Uncial+Antiqua&display=swap');
+
+* {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+}
+
 .home {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     margin-left: auto;
     margin-right: auto;
     max-width: 1500px;
@@ -17,4 +26,21 @@
     margin-left:5px;
     margin-right:5px;
     
+  }
+
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to the container */
+    padding: 20px; /* Add padding to give some spacing around the text */
+    border-radius: 10px; /* Optional: Add rounded corners to the container */
+  }
+  
+  h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+    margin-top: 0; /* Remove the top margin to center vertically */
+  }
+
+  .container p {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add spacing between header and paragraph */
   }

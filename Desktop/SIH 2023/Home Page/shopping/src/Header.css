@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Uncial+Antiqua&display=swap');
+
+* {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+
 .header{
     height:60px;
     display:flex;
@@ -8,9 +15,9 @@
     z-index:100;
 }
 .header__logo{
-    width: 100px;
+    width: 50px;
     object-fit: contain;
-    margin: 0 20px;
+    margin: 10px 20px;
     margin-top: 18px;
 }
 .header__search{
@@ -28,7 +35,7 @@
 .header__searchIcon{
     padding: 5px;
     height:22px !important;
-    background-color: #cd9042;
+    background-color: #8a847a;
 }
 .header__optionLineOne{
     font-size: 10px;

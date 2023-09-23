@@ -39,7 +39,7 @@ function Login() {
         <Link to='/'>
          <img
          className='login__logo' 
-         src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' />
+         src='images/SIH1.png' />
         </Link>
     
         <div className='login__container'>
@@ -59,13 +59,12 @@ function Login() {
                     </button>
             </form>
             <p>
-            By signing-in you agree to the AMAZON FAKE
-            CLONE Conditions of Use & Sale. Please
+            By signing-in you agree to the Terms & Conditions of Use & Sale. Please
             see our Privacy Notice, our Cookies Notice 
             and our Interest-Based Ads Notice.
             </p>
             <button onClick={register} className='login__registerButton'>
-                Create your Amazon Account
+                Create a new Account
                 </button>
         </div>
     </div>
